@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/our-restauran/static/css/main.86c24d36.css",
+    "main.js": "/our-restauran/static/js/main.39e6ce16.js",
+    "static/js/787.1a33adb6.chunk.js": "/our-restauran/static/js/787.1a33adb6.chunk.js",
+    "static/media/Email01.png": "/our-restauran/static/media/Email01.78381b23c78ca3db383d.png",
+    "static/media/pagenotfound.jpg": "/our-restauran/static/media/pagenotfound.ce293654fc5b055593cf.jpg",
+    "static/media/emptycart.png": "/our-restauran/static/media/emptycart.b5fe7e5c334490fa84e5.png",
+    "static/media/revicons.eot": "/our-restauran/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/our-restauran/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/noFav.png": "/our-restauran/static/media/noFav.82196e36ac48ee316d18.png",
+    "static/media/revicons.woff": "/our-restauran/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/our-restauran/index.html",
+    "main.86c24d36.css.map": "/our-restauran/static/css/main.86c24d36.css.map",
+    "main.39e6ce16.js.map": "/our-restauran/static/js/main.39e6ce16.js.map",
+    "787.1a33adb6.chunk.js.map": "/our-restauran/static/js/787.1a33adb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c24d36.css",
+    "static/js/main.39e6ce16.js"
+  ]
+}
