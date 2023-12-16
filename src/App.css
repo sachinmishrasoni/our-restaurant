@@ -1,38 +1,322 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script&display=swap');
+
+/* Header */
+.header-nav{
+    backdrop-filter: blur(10px);
+    box-shadow: -1px 1px 5px white;
+}
+#res-compo::before, #dra-res-compo::before{
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 93px;
+    width: 55%;
+    height: 4px;
+    border-radius: 0 10px 10px 50px;
+    background-color: goldenrod;
+}
+#dra-res-compo::before {
+    bottom: 7px;
+    left: 79px;
+    width: 56%;
+    border-radius: 0 10px 10px 50px;
+}
+.navbar a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-variant: small-caps;
+    margin-left: 5px;
+}
+.navbar li {
+    border-radius: 50px;
+}
+.navbar a:hover{
+    background-color: rgba(218, 165, 32, 0.2);
+}
+.navbar a.active{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    & li{
+        color: gold;
+        font-weight: 600;
+    }
+}
+.side-navbar a{
+    display: block;
+    text-decoration: none;
+}
+.side-navbar li:hover {
+    background-color: rgba(218, 165, 32, 0.2);
+}
+.side-navbar a.active{
+    background-color: rgba(255, 255, 255, 0.2);
+    & li{
+        color: gold;
+        font-weight: 600;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-multi-carousel-list button{
+    z-index: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.multi-carousel {
+    padding: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.multi-carousel ul {
+    /* background-color: lightblue; */
+    align-items: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.multi-carousel ul li {
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.multi-carousel .react-multiple-carousel__arrow--left {
+    left: 0;
+}
+
+.multi-carousel .react-multiple-carousel__arrow--right {
+    right: 0;
+}
+
+.multi-carousel .mycard {
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8), -1px -1px 10px rgba(218, 165, 32, 0.5);
+    transition: all 0.3s ease-in;
+}
+
+.car-ord-box h2{
+    font-weight: bold;
+}
+
+/*  */
+.headingName h4 {
+    font-weight: bold;
+    position: relative;
+}
+
+.headingName h4::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 3px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 10px gold, -1px -1px 10px gold;
+    border-radius: 10px;
+}
+
+.mycard:hover {
+    /* background-color: gray; */
+    transform: scale(1.03);
+    transition: all 0.3s ease-in;
+}
+
+.card-img::before {
+    content: "";
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.Swiper-Outer-Container .swiper {
+    padding: 20px 5px;
+
+}
+
+.Swiper-Outer-Container .swiper-slide {
+    transition: all 0.3s ease-in;
+    padding: 5px;
+}
+
+.Swiper-Outer-Container .swiper-slide:hover {
+    cursor: pointer;
+    background-color: rgba(218, 165, 32, 0.1);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
+}
+
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+    margin: 12px 0;
+}
+
+/* FeedbackComp */
+.Review-Swiper .swiper-wrapper {
+    padding: 0;
+}
+
+.Review-Swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/*  */
+.ShowProCompBox::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+/*  */
+.showproduct-cont .mycard {
+    transition: all 0.3s ease-in;
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.3);
+}
+
+.showproduct-cont .mycard:hover {
+
+    transition: all 0.3s ease-in;
+}
+
+.menu-container .swiper {
+    padding: 10px;
+}
+
+.menu-container .menuimg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: 1; */
+}
+/* About small nav bar */
+#sm-nav {
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 94vh;
+    z-index: 2;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.9), -1px -1px 10px rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+}
+#sm-nav .MuiGrid-item{
+    overflow: hidden;
+}
+#sm-nav button {
+    color: white;
+}
+#sm-nav button.active {
+    color: goldenrod;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+    
+}
+#sm-nav button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    background-color: goldenrod;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in;
+    
+}
+
+#sm-nav button.active::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: goldenrod;
+    transform: translateX(0%);
+    transition: all 0.3s ease-in;
+    
+}
+
+/* mycard details */
+.myCardDetail-Box {
+    transform: translate(100%);
+    transition: all 0.3s ease-in;
+}
+.myCardDetail-Box.active {
+    transform: translate(0%);
+    transition: all 0.3s ease-in;
+}
+
+/* Small Navbar */
+#small-navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 2px 1px rgba(255, 255, 255, 0.4), -1px -1px 2px 1px rgba(255, 255, 255, 0.4);
+    position: fixed;
+    bottom: 5px;
+}
+#small-navbar a.active{
+    & button{
+        color: goldenrod;
+        & p{
+            font-weight: 900;
+        }
+    }
+}
+
+#Dia-res-compo::before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 94px;
+    width: 55%;
+    height: 4px;
+    border-radius: 0 10px 10px 50px;
+    background-color: goldenrod;
+}
+
+
+.mky {
+    background-color: rgb(15, 15, 15);
+    font-variant: small-caps
+    ;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-bar li {
+        margin: 0 20px;
+    }
+
+    /* .car-ord-box {
+        background-color: rgb(212, 212, 212);
+    }
+
+    .car-ord-box h2 {
+        font-size: 2.5rem;
+    }
+
+    .car-ord-box h4 {
+        font-size: 1.5rem;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+    .pagenotfound h2 {
+        font-size: 3rem;
+    }
+
+    .pagenotfound h5 {
+        font-size: 1.5rem;
+    }
+    .css-1hfanbb-MuiButtonBase-root-MuiMenuItem-root{
+        max-height: auto;
+    }
 }

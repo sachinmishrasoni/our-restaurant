@@ -1,0 +1,131 @@
+[
+    {
+        "id": 0,
+        "dishname": "Pizza",
+        "url": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+        "varieties": [
+            {
+                "id": 0,
+                "name": "Margherita Pizza",
+                "price": 175,
+                "url": "https://images.ctfassets.net/nw5k25xfqsik/64VwvKFqxMWQORE10Tn8pY/200c0538099dc4d1cf62fd07ce59c2af/20220211142754-margherita-9920.jpg"
+            },
+            {
+                "id": 1,
+                "name": "Double Cheese Margherita Pizza",
+                "price": 255,
+                "url": "https://product-assets.faasos.io/production/product/image_1631125907990_Low_IFC_Double_Cheese_Pizza.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Farmhouse Pizza",
+                "price": 215,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/da/61/df/main-order-1-farmhouse.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mexican Green Wave Pizza",
+                "price": 300,
+                "url": "https://b.zmtcdn.com/data/dish_photos/049/3cfdc8a49d2d9ea7df1b607e3b360049.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Deluxe Veggie Pizza",
+                "price": 285,
+                "url": "https://www.killingthyme.net/wp-content/uploads/2020/09/veggie-deluxe-pizza-4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Veg Extravaganza Pizza",
+                "price": 400,
+                "url": "https://img.shpy.in/99675/1635615986019_SKU-0059_0.webp?"
+            },
+            {
+                "id": 6,
+                "name": "Cheese n Corn Pizza",
+                "price": 125,
+                "url": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/07/15/1065454-untitled-design-65.jpg?im=Resize=(1280,720)"
+            },
+            {
+                "id": 7,
+                "name": "Veggie Paradise Pizza",
+                "price": 265,
+                "url": "https://www.paninaro.in/wp-content/uploads/2017/07/Veggies-paradise-600x400.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Indi Tandoori Paneer Pizza",
+                "price": 399,
+                "url": "https://recipesblob.oetker.in/assets/2d2a87f7533e439aa3e6ed9bd63656e7/1272x764/tandoori-pizza.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "dishname": "Burger",
+        "url": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "varieties": [
+            {
+                "id": 0,
+                "name": "Paneer and Green Peas Burger",
+                "price": 299,
+                "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/veggie-burger-recipe-1.jpg.webp"
+            },
+            {
+                "id": 1,
+                "name": "Pizza Burger Bowel",
+                "price": 399,
+                "url": "https://i.ytimg.com/vi/IdAjPCvfnPA/maxresdefault.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Nutritious Burger",
+                "price": 249,
+                "url": "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/06/healthyBurger-1015055758-770x533-1-650x428.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Spicy Panner Burger",
+                "price": 350,
+                "url": "https://mcdonaldsblog.in/wp-content/uploads/2016/06/mcspicy-paneer-1-1.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Chawli Beans and Mint",
+                "price": 499,
+                "url": "https://www.nmamilife.com/wp-content/uploads/2020/07/6BLOG-R.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Whole Wheat Vegetable",
+                "price": 199,
+                "url": "https://www.yummyfoodrecipes.in/resources/picture/org/Wheat-Vegetable-Burger.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Chinese Burger",
+                "price": 265,
+                "url": "https://swirled.com/wp-content/uploads/2017/11/Screen-Shot-2017-11-14-at-12.00.30-PM.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Paw Bhaji Burger",
+                "price": 355,
+                "url": "https://1.bp.blogspot.com/-gMbt--tIRnQ/YQV3frlR5ZI/AAAAAAABHJ0/IdSpUtyn3OM-Vh_V61-JVEpZDGKo0_B6QCLcBGAsYHQ/s2048/IMG_2905%2B%25281%2529.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Health Burger",
+                "price": 499,
+                "url": "https://i.ytimg.com/vi/MjPL4yFMxnw/maxresdefault.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Vegetable Burger",
+                "price": 369,
+                "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2016/02/veg-burger-recipe-1.jpg"
+            }
+            
+        ]
+    }
+]
